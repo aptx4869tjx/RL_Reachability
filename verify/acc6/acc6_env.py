@@ -3,7 +3,7 @@ import time
 
 from scipy.optimize import minimize
 
-from abstract.qmpc.qmpc_abs import *
+import torch
 
 from verify.divide_tool import str_to_list, list_to_str, max_min_clip, combine_bound_list, contain
 
