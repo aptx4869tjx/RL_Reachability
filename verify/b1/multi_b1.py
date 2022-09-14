@@ -50,14 +50,14 @@ if __name__ == "__main__":
     t0 = time.time()
     sr = [[0.8, 0.5], [0.9, 0.6]]
     sr1 = [0.8, 0.5, 0.9, 0.6]
-    initial_intervals = [0.02, 0.02]
+    # initial_intervals = [0.02, 0.02]
     # initial_intervals = [0.03, 0.03]
     # initial_intervals = [0.04, 0.04]
     # initial_intervals = [0.05, 0.05]
-    initial_intervals = [0.01, 0.01]
-    initial_intervals = [0.005, 0.005]
+    # initial_intervals = [0.01, 0.01]
+    # initial_intervals = [0.005, 0.005]
     # initial_intervals = [0.06, 0.06]
-    initial_intervals = [0.002, 0.002]
+    # initial_intervals = [0.002, 0.002]
     # initial_intervals = [0.001, 0.001]
     divide_tool = initiate_divide_tool(state_space, initial_intervals)
     agent = Agent(divide_tool)
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     # 106.18299126625061
     # agg
     # 142.5310754776001
-    pool = multiprocessing.Pool(processes=1)
+    pool = multiprocessing.Pool(processes=20)
     cnt = 1
     for bound in bounds:
         results.append(pool.apply_async(task, (bound, cnt, False)))

@@ -6,7 +6,7 @@ from verify.divide_tool import initiate_divide_tool
 from verify.tora.tora_env import TORAEnv1
 
 
-# from verify.tora.tora_env2 import TORAEnv2
+
 
 
 def task(region, cnt, info=False):
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     sr_dt = initiate_divide_tool(sr, [0.001, 0.001, 0.015, 0.02])
     bounds = sr_dt.intersection(sr1)
     print(len(bounds))
-    pool = multiprocessing.Pool(processes=1)
+    pool = multiprocessing.Pool(processes=20)
     cnt = 1
     results = []
     for bound in bounds:

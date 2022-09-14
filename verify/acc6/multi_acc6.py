@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
     print(len(bounds))
     results = []
-    pool = multiprocessing.Pool(processes=1)
+    pool = multiprocessing.Pool(processes=20)
     cnt = 1
     for bound in bounds:
         results.append(pool.apply_async(task, (bound, cnt, False)))

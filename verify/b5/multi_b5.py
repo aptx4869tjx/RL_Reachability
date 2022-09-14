@@ -64,7 +64,7 @@ if __name__ == "__main__":
     sr_dt = initiate_divide_tool(sr, [0.01, 0.01, 0.001])
     bounds = sr_dt.intersection(sr1)
     print(len(bounds))
-    pool = multiprocessing.Pool(processes=1)
+    pool = multiprocessing.Pool(processes=20)
     cnt = 1
     results = []
     for bound in bounds:

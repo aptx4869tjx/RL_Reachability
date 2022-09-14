@@ -4,7 +4,7 @@ from abstract.tora.tora_abs import *
 from verify.divide_tool import initiate_divide_tool
 
 from verify.tora.tora_env import TORAEnv1
-from verify.tora.tora_env2 import TORAEnv2
+
 
 print(time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime()))
 t0 = time.time()

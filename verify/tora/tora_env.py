@@ -153,7 +153,7 @@ def near_bound(current, target):
     # standard = [0.0001, 0.0001, 0.0001, 0.0001]
     # standard = [0.0005, 0.0005, 0.001, 0.001]
     # standard = [0.0004, 0.0004, 0.001, 0.001]
-    standard = [0.001, 0.001, 0.001, 0.001]
+    # standard = [0.001, 0.001, 0.001, 0.001]
     # standard = [0.0004, 0.0004, 0.001, 0.001]
     dim = len(current)
     half_dim = int(dim / 2)

@@ -27,10 +27,10 @@ initial_intervals = [0.02, 0.02]
 # initial_intervals = [0.03, 0.03]
 # initial_intervals = [0.04, 0.04]
 # initial_intervals = [0.05, 0.05]
-initial_intervals = [0.01, 0.01]
-initial_intervals = [0.005, 0.005]
+# initial_intervals = [0.01, 0.01]
+# initial_intervals = [0.005, 0.005]
 # initial_intervals = [0.06, 0.06]
-initial_intervals = [0.002, 0.002]
+# initial_intervals = [0.002, 0.002]
 # initial_intervals = [0.001, 0.001]
 if relu:
     pt_file0 = os.path.join(script_path,
